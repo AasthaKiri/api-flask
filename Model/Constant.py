@@ -9,7 +9,7 @@ import pymssql
 try:
     # Create a connection object
     # connection = pyodbc.connect(DatabaseConnectionString)
-    connection = pymssql.connect(server='DESKTOP-A4FVATT\\SQLEXPRESS',user ='sa',password='sasql@123',database='local')
+    connection = pymssql.connect(server='DESKTOP-A4FVATT\SQLEXPRESS',user ='sa',password='sasql@123',database='local')
 
     # If the connection is successful, this line will be executed
     print('Connection established successfully')
